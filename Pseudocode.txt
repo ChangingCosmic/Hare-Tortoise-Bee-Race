@@ -1,0 +1,53 @@
+int main() {
+	int positionTort, positionHare, positionBee = 0;
+	int time;
+	int lead;
+	int hareNum = 1;
+	int tortNum = 0;
+	int beeNum = 2;
+
+	int userNumber;
+	scanf(userNumber);
+	
+	srand(userNumber);
+
+	while(positionHare, posTort, posBee < 70){
+		positionHare = update_hare(positionHarE);
+		if (positionHare > 70){
+			break;
+		}
+
+		positionTortois = update_tort(positionTort);
+		//check tortois's position
+
+		positionBee = update_bee(positionBee);
+		//check bee's position
+		
+		if (positionHare > positionBee, positionTort && lead != hareNumber) {
+			printf("hare wins");
+		} else if (positionBee > positionHare, positionTort && lead != beeNum) {
+			printf("bee wins");
+		} else if (positionTort > positionBee, positionHare && lead != tortNum) {
+			printf("tort wins");
+		else {
+			//printf("tied");
+			continue;
+		}
+
+		time++;
+	}
+	return 0;
+}
+
+int update_hare(int currentPos){
+	float val = ((float) rand() / (float) (RAND_MAX));
+	
+	if(sleep)
+		return currentPos + 0;
+	else if (big hop)
+		return currentPos  + 9;
+	//continue for the rest
+
+}
+
+//update_tortois and update_bee are the same as update_hare
